@@ -89,6 +89,8 @@ Control remoto
 
 ![Humedad](./images/4_Humedad_bb.png)
 
+![Humedad](./images/4_Humedad_bb.png)
+
 ### Ejemplo: Domotica/5_Sensor_Humedad
 
 ## Relés de riego
