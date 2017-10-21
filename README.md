@@ -59,7 +59,7 @@ Detalles:
     * 0x27
     * 0x3F
 
-Ejemplo: Domotica/2.LCD
+### Ejemplo: Domotica/2.LCD
 
 ## [Otros sensores](https://github.com/javacasm/SmartCities_Comunes/blob/master/Componentes.md)
 
@@ -69,10 +69,37 @@ Usamos el sensor atmosférico BME280 para medir temperatura, presión y humedad 
 
 ![](./imagenes/3_Meteo_BME280_bb.png)
 
-Ejemplo: Domotica/3_Meteo_BME280
+### Ejemplo: Domotica/3_Meteo_BME280
 
-## Configuración Wifi
+## Wifi
 
 Antes de continuar tenemos que aprender a utilizar el Wifi de Arduino
 
 [Configuración Wifi](./wifi.md)
+
+Servidor Web
+Control remoto
+
+
+
+## Sensor de humedad
+
+![Humedad](./images/4_Humedad_bb.png)
+
+### Ejemplo: Domotica/4_Humedad
+
+## Relés de riego
+Explicación sobre los relés
+
+![Reles](./imagenes/5_Reles_bb.png)
+
+## Conexión de Bomba
+
+![Bomba riego](./imagenes/6_Bomba_Riego_bb.png)
+
+## Relés para simulación de Aire acondicionado/Calefación
+  Configuración de temperatura
+
+## Iluminación automática
+  Medida de luminosidad
+  Conexión de iluminación (simulación con un led)
