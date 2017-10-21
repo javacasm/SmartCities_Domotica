@@ -3,17 +3,13 @@
 ## Información y control del hogar
 
 Trabajaremos en implementar una casa domótica conectada con los siguientes elementos
+  * Medida de la temperatura y humedad interna
   * Control y regulación de temperatura y humedad
+  * Control de riego
   * Control de iluminación
-  * Control de puerta de garaje
+
 
 Toda la información así como el control está disponible desde Internet
-
-## Maqueta: Casa domótica
-* Control y regulación de temperatura
-* Control de puerta de garaje
-
-
 
 
 
@@ -26,54 +22,57 @@ Toda la información así como el control está disponible desde Internet
 * Cables
 
 
-### Ejemplos
+## Montaje
 
-#### Control de iluminación
-
-![](./imagenes/Contorl_iluminacionh_bb.png)
-
-Utilizamos un sensor de luz para activar automáticamente la iluminación
-
-### Medida de 2 temperaturas
-
-![](./imagenes/Comparando_temperaturas.png)
-
-Utilizamos dos sensores de temperatura DHT22 para medir la temperatura en el exterior y el interior de la casa
-
-#### Comparando temperaturas
-![](./imagenes/Comparando_temperaturas.png)
-
-Utilizamos dos sensores de temperatura DHT22 y mostramos los datos en la consola
-
-Ejemplo: SmartCities/Domotica/Comparando_temperaturas
-
-### Control de Ventilación
-
-![](./imagenes/Control_Ventilacion_bb.png)
-
-Controlamos la apertura de una rejilla mediante un motor de tipo servo en función de la diferencia entre la temperatura interior y exterior
-
-### Control remoto de reles
-
-![](./imagenes/7_control_rele_bb.png)
-
-Podemos utilizar relés para controlar cualquier dispositivo eléctrico
-
-Ejemplo: SmartCities/Domotica/Control_remoto
+## https://goo.gl/Yf3hrm
 
 
+## Hello Led y conexión al PC
 
-### Ampliación: iluminación
+Conectamos un led a la patilla 13 y lo encendemos y apagamos, es el "Hola Mundo" de Arduino!! Podemos ver los desde el monitor serie: Menu Herramientas/Monitor Serie
 
-Uso de Mosfet
+![](./imagenes/1_Hello_led_bb.png)
 
-#### Materiales
+Detalles:
+* Pines de Arduino
+* Polaridad LED
+* Necesidad de resistencia
 
-* Placa Mosfet
-* Tira de Leds
-* Alimentación para los leds
+Sobre Arduino:
+* Una vez programado, se puede desconectar y el programa se guarda.
+* Al alimentarlo se ejecuta el último programa que se envió
+* Sólo puede tener un programa, cuando se reprograma se pierde el anterior
 
+### Ejemplo: Domotica/1.LED_Conexion_PC
 
-## Referencias
+## LCD
 
-[Alarma por MQTT](https://medium.com/@leeuwte/stable-esp01-motion-sensor-for-mqtt-2d81c0b1e317)
+Conectamos una pantalla LCD y aprendemos a mostrar contenidos
+
+![](./imagenes/2_LCD_bb.png)
+
+Detalles:
+* Pines Shield
+* I2C
+* Cada fabricante usa una dirección para su LCD.
+* Podemos usar las direcciones:
+    * 0x27
+    * 0x3F
+
+Ejemplo: Domotica/2.LCD
+
+## Otros sensores
+
+## Sensor BME280
+
+Usamos el sensor atmosférico BME280 para medir temperatura, presión y humedad ambiente
+
+![](./imagenes/3_Meteo_BME280_bb.png)
+
+Ejemplo: Domotica/3_Meteo_BME280
+
+## Configuración Wifi
+
+Antes de continuar tenemos que aprender a utilizar el Wifi de Arduino
+
+[Configuración Wifi](./wifi.md)
