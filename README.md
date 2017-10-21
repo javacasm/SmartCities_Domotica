@@ -27,7 +27,7 @@ Toda la información así como el control está disponible desde Internet
 ## https://goo.gl/Yf3hrm
 
 
-## Hello Led y conexión al PC
+## Hello Led y PC
 
 Conectamos un led a la patilla 13 y lo encendemos y apagamos, es el "Hola Mundo" de Arduino!! Podemos ver los desde el monitor serie: Menu Herramientas/Monitor Serie
 
@@ -61,7 +61,7 @@ Detalles:
 
 Ejemplo: Domotica/2.LCD
 
-## Otros sensores
+## [Otros sensores](https://github.com/javacasm/SmartCities_Comunes/blob/master/Componentes.md)
 
 ## Sensor BME280
 
