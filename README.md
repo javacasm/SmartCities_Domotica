@@ -87,9 +87,7 @@ Control remoto
 
 ## Sensor de humedad
 
-![Humedad](./images/4_Humedad_bb.png)
-
-![Humedad](./images/4_Humedad_bb.png)
+![Humedad](./imagenes/5_Humedad_bb.png)
 
 ### Ejemplo: Domotica/5_Sensor_Humedad
 
