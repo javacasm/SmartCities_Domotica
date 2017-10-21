@@ -91,10 +91,12 @@ Control remoto
 
 ### Ejemplo: Domotica/5_Sensor_Humedad
 
-## Relés de riego
+## Reles de riego
 Explicación sobre los relés
 
 ![Reles](./imagenes/6_Reles_bb.png)
+
+### Ejemplo: Domotica/6_Reles
 
 ## Conexión de Bomba
 
