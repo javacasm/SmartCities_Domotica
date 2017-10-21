@@ -80,13 +80,16 @@ Antes de continuar tenemos que aprender a utilizar el Wifi de Arduino
 Servidor Web
 Control remoto
 
+#### http://192.168.1.<ID>/arduino/webserver
+
+### Ejemplo: Domotica/4_Meteo_Wifi
 
 
 ## Sensor de humedad
 
 ![Humedad](./images/4_Humedad_bb.png)
 
-### Ejemplo: Domotica/4_Humedad
+### Ejemplo: Domotica/5_Sensor_Humedad
 
 ## Relés de riego
 Explicación sobre los relés
