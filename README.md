@@ -94,11 +94,11 @@ Control remoto
 ## Relés de riego
 Explicación sobre los relés
 
-![Reles](./imagenes/5_Reles_bb.png)
+![Reles](./imagenes/6_Reles_bb.png)
 
 ## Conexión de Bomba
 
-![Bomba riego](./imagenes/6_Bomba_Riego_bb.png)
+![Bomba riego](./imagenes/7_Bomba_Riego_bb.png)
 
 ## Relés para simulación de Aire acondicionado/Calefación
   Configuración de temperatura
