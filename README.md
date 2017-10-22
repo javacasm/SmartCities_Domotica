@@ -110,9 +110,16 @@ Accedemos desde un navegador
 
 ![Bomba riego](./imagenes/7_Bomba_Riego_bb.png)
 
-## Iluminación automática
+## Iluminacion automática
   Medida de luminosidad
-  Conexión de iluminación (simulación con un led)
+  Conexión de iluminación (simulación con un led RGB)
 
-## Relés para simulación de Aire acondicionado/Calefación
-  Configuración de temperatura
+Usamos un sensor LDR para medir la cantidad de luz
+Para la iluminación utilizamos un led RGB que conectamos a 3 pines PWM (podemos modular la potencia que emiten)
+
+![Iluminacion automatica](./imagenes/8_Iluminacion_automatica_bb.png)
+
+### Ejemplo: Domotica/7_iluminacion_automatica
+
+Mejoras:
+* Cambiar el color de la Iluminacion
