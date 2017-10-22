@@ -77,22 +77,28 @@ Antes de continuar tenemos que aprender a utilizar el Wifi de Arduino
 
 [Configuración Wifi](./wifi.md)
 
-Servidor Web
-Control remoto
+Nos permite:
+* Servidor Web
+* Control remoto
+
+Accedemos desde un navegador
 
 #### http://192.168.1.<ID>/arduino/webserver
 
+
 ### Ejemplo: Domotica/4_Meteo_Wifi
 
-
 ## Sensor de humedad
+
+(Descripción del sensor y su uso, pruebas a hacer y tema del agua)
 
 ![Humedad](./imagenes/5_Humedad_bb.png)
 
 ### Ejemplo: Domotica/5_Sensor_Humedad
 
 ## Reles de riego
-Explicación sobre los relés
+
+(Explicación sobre los relés  y su uso)
 
 ![Reles](./imagenes/6_Reles_bb.png)
 
@@ -100,11 +106,13 @@ Explicación sobre los relés
 
 ## Conexión de Bomba
 
-![Bomba riego](./imagenes/7_Bomba_Riego_bb.png)
+(Explicación de la bomba y su uso. Alimentación y consumo)
 
-## Relés para simulación de Aire acondicionado/Calefación
-  Configuración de temperatura
+![Bomba riego](./imagenes/7_Bomba_Riego_bb.png)
 
 ## Iluminación automática
   Medida de luminosidad
   Conexión de iluminación (simulación con un led)
+
+## Relés para simulación de Aire acondicionado/Calefación
+  Configuración de temperatura
