@@ -123,3 +123,5 @@ Para la iluminación utilizamos un led RGB que conectamos a 3 pines PWM (podemos
 
 Mejoras:
 * Cambiar el color de la Iluminacion
+
+## [Contenido Kit](https://github.com/javacasm/SmartCities_Comunes/blob/master/Kit.md)
