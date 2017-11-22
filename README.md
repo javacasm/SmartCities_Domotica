@@ -1,4 +1,19 @@
-# SmartCities_Domotica
+# Taller Práctico de Tecnología en las SmartCities
+
+## [Red Guadalinfo](http://www.guadalinfo.es/)
+
+### [Consorcio Fernando de los ríos](http://www.consorciofernandodelosrios.es/)
+
+
+#### José Antonio Vacas Martínez
+
+#### @javacasm
+
+![Licencia CC](./imagenes/Licencia_CC.png)
+
+
+*****
+# Proyecto domótica
 
 ## Información y control del hogar
 
