@@ -58,7 +58,7 @@ Sobre Arduino:
 * Al alimentarlo se ejecuta el último programa que se envió
 * Sólo puede tener un programa, cuando se reprograma se pierde el anterior
 
-### Ejemplo: Domotica/1.LED_Conexion_PC
+### Ejemplo: [Domotica/1.LED_Conexion_PC](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_1.LED_Conexion_PC/_1.LED_Conexion_PC.ino)
 
 ## LCD
 
@@ -74,7 +74,7 @@ Detalles:
     * 0x27
     * 0x3F
 
-### Ejemplo: Domotica/2.LCD
+### Ejemplo: [Domotica/2.LCD](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_2.LCD/_2.LCD.ino)
 
 ## [Otros sensores](https://github.com/javacasm/SmartCities_Comunes/blob/master/Componentes.md)
 
@@ -84,7 +84,7 @@ Usamos el sensor atmosférico BME280 para medir temperatura, presión y humedad 
 
 ![](./imagenes/3_Meteo_BME280_bb.png)
 
-### Ejemplo: Domotica/3_Meteo_BME280
+### Ejemplo: [Domotica/3_Meteo_BME280](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_3_Sensor_Atmosferico_BME280/_3_Sensor_Atmosferico_BME280.ino)
 
 ## Wifi
 
@@ -98,10 +98,10 @@ Nos permite:
 
 Accedemos desde un navegador
 
-#### http://192.168.1.<ID>/arduino/webserver
+#### http://192.168.1.ID/arduino/webserver (Cambiamos ID por el número de placa)
 
 
-### Ejemplo: Domotica/4_Meteo_Wifi
+### Ejemplo: [Domotica/4_Meteo_Wifi](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_4_Meteo_Wifi/_4_Meteo_Wifi.ino)
 
 ## Sensor de humedad
 
@@ -109,7 +109,7 @@ Accedemos desde un navegador
 
 ![Humedad](./imagenes/5_Humedad_bb.png)
 
-### Ejemplo: Domotica/5_Sensor_Humedad
+### Ejemplo: [Domotica/5_Sensor_Humedad](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_5_Sensor_Humedad/_5_Sensor_Humedad.ino)
 
 ## Reles de riego
 
@@ -117,7 +117,7 @@ Accedemos desde un navegador
 
 ![Reles](./imagenes/6_Reles_bb.png)
 
-### Ejemplo: Domotica/6_Reles
+### Ejemplo: [Domotica/6_Reles](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_6_Reles/_6_Reles.ino)
 
 ## Conexión de Bomba
 
@@ -134,10 +134,15 @@ Para la iluminación utilizamos un led RGB que conectamos a 3 pines PWM (podemos
 
 ![Iluminacion automatica](./imagenes/8_Iluminacion_automatica_bb.png)
 
-### Ejemplo: Domotica/7_iluminacion_automatica
+### Ejemplo: [Domotica/7_iluminacion_automatica](https://github.com/javacasm/SmartCities_Library/blob/master/examples/Domotica/_7_Iluminacion_automatica/_7_Iluminacion_automatica.ino)
+
 
 Mejoras:
-* Cambiar el color de la Iluminacion
+* Cambiar el color de la Iluminación
+
+### [Selector de colores](https://www.w3schools.com/colors/colors_picker.asp)
+
+![Combinación de los colores](https://i0.wp.com/miescapedigital.com/wp-content/uploads/2017/06/rgb1.png)
 
 ## [Contenido Kit](https://github.com/javacasm/SmartCities_Comunes/blob/master/Kit.md)
 
